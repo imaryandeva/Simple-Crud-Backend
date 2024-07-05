@@ -13,8 +13,6 @@ app.use(express.urlencoded({extended: false}));
 app.use("/api/products", productRoute);
 
 
-
-
 app.get("/", (req, res) => {
   res.send("Hello from Node API Server Updated");
 });
